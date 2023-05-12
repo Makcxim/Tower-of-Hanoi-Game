@@ -6,21 +6,36 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1211</width>
+    <width>1280</width>
     <height>600</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <pointsize>20</pointsize>
+    <bold>true</bold>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: black;
+QMainWindow::titleBarMaxButton {
+    background: transparent;
+}</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label1">
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>70</y>
-      <width>301</width>
-      <height>121</height>
+      <y>80</y>
+      <width>340</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="text">
@@ -30,10 +45,10 @@
    <widget class="QLabel" name="label2">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>220</y>
-      <width>301</width>
-      <height>111</height>
+      <x>30</x>
+      <y>200</y>
+      <width>340</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="text">
@@ -41,13 +56,37 @@
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>0</y>
-      <width>101</width>
-      <height>51</height>
+      <x>150</x>
+      <y>10</y>
+      <width>100</width>
+      <height>50</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: white;
+    color: black;
+}
+QPushButton:hover {
+    background-color: lightgray;
+    color: black;
+}
+QPushButton::item:selected {
+    background-color: #0078d7;
+    color: white;
+    selection-background-color: #a5c8f7;
+}</string>
     </property>
     <property name="text">
      <string>1</string>
@@ -56,11 +95,32 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>0</y>
-      <width>111</width>
-      <height>61</height>
+      <x>520</x>
+      <y>10</y>
+      <width>100</width>
+      <height>50</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: white;
+    color: black;
+}
+QPushButton:hover {
+    background-color: lightgray;
+    color: black;
+}
+QPushButton::item:selected {
+    background-color: #0078d7;
+    color: white;
+    selection-background-color: #a5c8f7;
+}</string>
     </property>
     <property name="text">
      <string>2</string>
@@ -69,11 +129,32 @@
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>860</x>
-      <y>0</y>
-      <width>111</width>
-      <height>61</height>
+      <x>890</x>
+      <y>10</y>
+      <width>100</width>
+      <height>50</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: white;
+    color: black;
+}
+QPushButton:hover {
+    background-color: lightgray;
+    color: black;
+}
+QPushButton::item:selected {
+    background-color: #0078d7;
+    color: white;
+    selection-background-color: #a5c8f7;
+}</string>
     </property>
     <property name="text">
      <string>3</string>
@@ -82,10 +163,10 @@
    <widget class="QLabel" name="label3">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>360</y>
-      <width>301</width>
-      <height>91</height>
+      <x>30</x>
+      <y>320</y>
+      <width>340</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="text">
@@ -95,10 +176,10 @@
    <widget class="QLabel" name="label2_2">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>210</y>
-      <width>301</width>
-      <height>111</height>
+      <x>400</x>
+      <y>200</y>
+      <width>340</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="text">
@@ -108,10 +189,10 @@
    <widget class="QLabel" name="label3_2">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>360</y>
-      <width>301</width>
-      <height>81</height>
+      <x>400</x>
+      <y>320</y>
+      <width>340</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="text">
@@ -121,10 +202,10 @@
    <widget class="QLabel" name="label1_2">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>70</y>
-      <width>301</width>
-      <height>121</height>
+      <x>400</x>
+      <y>80</y>
+      <width>340</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="text">
@@ -134,10 +215,10 @@
    <widget class="QLabel" name="label2_3">
     <property name="geometry">
      <rect>
-      <x>760</x>
-      <y>210</y>
-      <width>301</width>
-      <height>111</height>
+      <x>770</x>
+      <y>200</y>
+      <width>340</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="text">
@@ -147,10 +228,10 @@
    <widget class="QLabel" name="label3_3">
     <property name="geometry">
      <rect>
-      <x>760</x>
-      <y>330</y>
-      <width>301</width>
-      <height>121</height>
+      <x>770</x>
+      <y>320</y>
+      <width>340</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="text">
@@ -160,10 +241,10 @@
    <widget class="QLabel" name="label1_3">
     <property name="geometry">
      <rect>
-      <x>760</x>
-      <y>70</y>
-      <width>301</width>
-      <height>121</height>
+      <x>740</x>
+      <y>90</y>
+      <width>340</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="text">
@@ -173,11 +254,32 @@
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>1070</x>
+      <x>1140</x>
       <y>10</y>
-      <width>93</width>
-      <height>61</height>
+      <width>110</width>
+      <height>50</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: white;
+    color: black;
+}
+QPushButton:hover {
+    background-color: lightgray;
+    color: black;
+}
+QPushButton::item:selected {
+    background-color: #0078d7;
+    color: white;
+    selection-background-color: #a5c8f7;
+}</string>
     </property>
     <property name="text">
      <string>Cancel</string>
@@ -186,10 +288,10 @@
    <widget class="QLabel" name="label4">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>470</y>
-      <width>301</width>
-      <height>91</height>
+      <x>30</x>
+      <y>440</y>
+      <width>340</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="text">
@@ -199,10 +301,10 @@
    <widget class="QLabel" name="label4_2">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>460</y>
-      <width>301</width>
-      <height>91</height>
+      <x>400</x>
+      <y>440</y>
+      <width>340</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="text">
@@ -213,9 +315,9 @@
     <property name="geometry">
      <rect>
       <x>770</x>
-      <y>460</y>
-      <width>301</width>
-      <height>91</height>
+      <y>440</y>
+      <width>340</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="text">
@@ -228,11 +330,36 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1211</width>
-     <height>26</height>
+     <width>1280</width>
+     <height>21</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: black;
+background-color: white;</string>
+   </property>
    <widget class="QMenu" name="menuDifficulty">
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QMenu {
+    background-color: white;
+    color: black;
+}
+QMenu::item:selected {
+    background-color: #0078d7;
+    color: white;
+    selection-background-color: #a5c8f7;
+}</string>
+    </property>
     <property name="title">
      <string>Difficulty</string>
     </property>
@@ -247,6 +374,11 @@
   <action name="action1">
    <property name="text">
     <string>1</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
    </property>
   </action>
   <action name="action2">
